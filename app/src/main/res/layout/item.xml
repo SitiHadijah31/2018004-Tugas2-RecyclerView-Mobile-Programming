@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgMakanan"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/burger" />
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgMakanan"
+        android:layout_marginLeft="12dp"
+        android:text="Nama Makanan"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgMakanan"
+        android:layout_marginLeft="12dp"
+        android:text="Decsription"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/txtname"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/txtprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgMakanan"
+        android:layout_marginLeft="12dp"
+        android:text="Price"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/txtdesc"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
